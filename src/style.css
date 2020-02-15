@@ -1,0 +1,13 @@
+.axis path,
+.axis line{
+  stroke: #070a56;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: Optima, Futura, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  fill: #070a56;
+}
+
