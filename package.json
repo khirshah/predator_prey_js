@@ -25,7 +25,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "d3": "^5.15.0",
+    "d3": "^7.9.0",
     "lodash": "^4.17.15",
     "odex": "^2.0.4"
   }
