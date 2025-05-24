@@ -7,7 +7,33 @@
 .axis text {
   font-family: Optima, Futura, sans-serif;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 14px; /* Default font size */
   fill: #070a56;
 }
 
+/* SVG container style */
+#vectorspace {
+  /* Default padding, matches JS margin/2 for consistency, but can be overridden */
+  padding: 50px; 
+  box-sizing: border-box; /* Ensure padding doesn't add to total width/height specified in JS */
+}
+
+/* Media Query for Tablets and smaller devices */
+@media (max-width: 768px) {
+  .axis text {
+    font-size: 12px;
+  }
+  #vectorspace {
+    padding: 30px; /* Reduced padding for tablets */
+  }
+}
+
+/* Media Query for Mobile devices */
+@media (max-width: 480px) {
+  .axis text {
+    font-size: 10px;
+  }
+  #vectorspace {
+    padding: 15px; /* Further reduced padding for mobile phones */
+  }
+}
